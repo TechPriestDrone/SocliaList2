@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE2EC702ADC317600E8281F /* SocliaListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC6F2ADC317600E8281F /* SocliaListApp.swift */; };
+		EDE2EC722ADC317600E8281F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC712ADC317600E8281F /* ContentView.swift */; };
+		EDE2EC742ADC317900E8281F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2EC732ADC317900E8281F /* Assets.xcassets */; };
+		EDE2EC772ADC317900E8281F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2EC762ADC317900E8281F /* Preview Assets.xcassets */; };
+		EDE2EC812ADC317900E8281F /* SocliaListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC802ADC317900E8281F /* SocliaListTests.swift */; };
+		EDE2EC8B2ADC317900E8281F /* SocliaListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC8A2ADC317900E8281F /* SocliaListUITests.swift */; };
+		EDE2EC8D2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC8C2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE2EC7D2ADC317900E8281F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE2EC642ADC317600E8281F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE2EC6B2ADC317600E8281F;
+			remoteInfo = SocliaList;
+		};
+		EDE2EC872ADC317900E8281F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE2EC642ADC317600E8281F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE2EC6B2ADC317600E8281F;
+			remoteInfo = SocliaList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE2EC6C2ADC317600E8281F /* SocliaList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocliaList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE2EC6F2ADC317600E8281F /* SocliaListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocliaListApp.swift; sourceTree = "<group>"; };
+		EDE2EC712ADC317600E8281F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDE2EC732ADC317900E8281F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE2EC762ADC317900E8281F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDE2EC7C2ADC317900E8281F /* SocliaListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocliaListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE2EC802ADC317900E8281F /* SocliaListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocliaListTests.swift; sourceTree = "<group>"; };
+		EDE2EC862ADC317900E8281F /* SocliaListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocliaListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE2EC8A2ADC317900E8281F /* SocliaListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocliaListUITests.swift; sourceTree = "<group>"; };
+		EDE2EC8C2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocliaListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE2EC692ADC317600E8281F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE2EC792ADC317900E8281F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE2EC832ADC317900E8281F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE2EC632ADC317600E8281F = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC6E2ADC317600E8281F /* SocliaList */,
+				EDE2EC7F2ADC317900E8281F /* SocliaListTests */,
+				EDE2EC892ADC317900E8281F /* SocliaListUITests */,
+				EDE2EC6D2ADC317600E8281F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE2EC6D2ADC317600E8281F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC6C2ADC317600E8281F /* SocliaList.app */,
+				EDE2EC7C2ADC317900E8281F /* SocliaListTests.xctest */,
+				EDE2EC862ADC317900E8281F /* SocliaListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE2EC6E2ADC317600E8281F /* SocliaList */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC6F2ADC317600E8281F /* SocliaListApp.swift */,
+				EDE2EC712ADC317600E8281F /* ContentView.swift */,
+				EDE2EC732ADC317900E8281F /* Assets.xcassets */,
+				EDE2EC752ADC317900E8281F /* Preview Content */,
+			);
+			path = SocliaList;
+			sourceTree = "<group>";
+		};
+		EDE2EC752ADC317900E8281F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC762ADC317900E8281F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDE2EC7F2ADC317900E8281F /* SocliaListTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC802ADC317900E8281F /* SocliaListTests.swift */,
+			);
+			path = SocliaListTests;
+			sourceTree = "<group>";
+		};
+		EDE2EC892ADC317900E8281F /* SocliaListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC8A2ADC317900E8281F /* SocliaListUITests.swift */,
+				EDE2EC8C2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift */,
+			);
+			path = SocliaListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE2EC6B2ADC317600E8281F /* SocliaList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE2EC902ADC317900E8281F /* Build configuration list for PBXNativeTarget "SocliaList" */;
+			buildPhases = (
+				EDE2EC682ADC317600E8281F /* Sources */,
+				EDE2EC692ADC317600E8281F /* Frameworks */,
+				EDE2EC6A2ADC317600E8281F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocliaList;
+			productName = SocliaList;
+			productReference = EDE2EC6C2ADC317600E8281F /* SocliaList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE2EC7B2ADC317900E8281F /* SocliaListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE2EC932ADC317900E8281F /* Build configuration list for PBXNativeTarget "SocliaListTests" */;
+			buildPhases = (
+				EDE2EC782ADC317900E8281F /* Sources */,
+				EDE2EC792ADC317900E8281F /* Frameworks */,
+				EDE2EC7A2ADC317900E8281F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE2EC7E2ADC317900E8281F /* PBXTargetDependency */,
+			);
+			name = SocliaListTests;
+			productName = SocliaListTests;
+			productReference = EDE2EC7C2ADC317900E8281F /* SocliaListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE2EC852ADC317900E8281F /* SocliaListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE2EC962ADC317900E8281F /* Build configuration list for PBXNativeTarget "SocliaListUITests" */;
+			buildPhases = (
+				EDE2EC822ADC317900E8281F /* Sources */,
+				EDE2EC832ADC317900E8281F /* Frameworks */,
+				EDE2EC842ADC317900E8281F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE2EC882ADC317900E8281F /* PBXTargetDependency */,
+			);
+			name = SocliaListUITests;
+			productName = SocliaListUITests;
+			productReference = EDE2EC862ADC317900E8281F /* SocliaListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE2EC642ADC317600E8281F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EDE2EC6B2ADC317600E8281F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EDE2EC7B2ADC317900E8281F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDE2EC6B2ADC317600E8281F;
+					};
+					EDE2EC852ADC317900E8281F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDE2EC6B2ADC317600E8281F;
+					};
+				};
+			};
+			buildConfigurationList = EDE2EC672ADC317600E8281F /* Build configuration list for PBXProject "SocliaList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE2EC632ADC317600E8281F;
+			productRefGroup = EDE2EC6D2ADC317600E8281F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE2EC6B2ADC317600E8281F /* SocliaList */,
+				EDE2EC7B2ADC317900E8281F /* SocliaListTests */,
+				EDE2EC852ADC317900E8281F /* SocliaListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE2EC6A2ADC317600E8281F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE2EC772ADC317900E8281F /* Preview Assets.xcassets in Resources */,
+				EDE2EC742ADC317900E8281F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE2EC7A2ADC317900E8281F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE2EC842ADC317900E8281F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE2EC682ADC317600E8281F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE2EC722ADC317600E8281F /* ContentView.swift in Sources */,
+				EDE2EC702ADC317600E8281F /* SocliaListApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE2EC782ADC317900E8281F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE2EC812ADC317900E8281F /* SocliaListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE2EC822ADC317900E8281F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE2EC8B2ADC317900E8281F /* SocliaListUITests.swift in Sources */,
+				EDE2EC8D2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE2EC7E2ADC317900E8281F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE2EC6B2ADC317600E8281F /* SocliaList */;
+			targetProxy = EDE2EC7D2ADC317900E8281F /* PBXContainerItemProxy */;
+		};
+		EDE2EC882ADC317900E8281F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE2EC6B2ADC317600E8281F /* SocliaList */;
+			targetProxy = EDE2EC872ADC317900E8281F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDE2EC8E2ADC317900E8281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE2EC8F2ADC317900E8281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE2EC912ADC317900E8281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocliaList/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Andrey.SocliaList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE2EC922ADC317900E8281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocliaList/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Andrey.SocliaList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDE2EC942ADC317900E8281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Andrey.SocliaListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocliaList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocliaList";
+			};
+			name = Debug;
+		};
+		EDE2EC952ADC317900E8281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Andrey.SocliaListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocliaList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocliaList";
+			};
+			name = Release;
+		};
+		EDE2EC972ADC317900E8281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Andrey.SocliaListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocliaList;
+			};
+			name = Debug;
+		};
+		EDE2EC982ADC317900E8281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Andrey.SocliaListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocliaList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE2EC672ADC317600E8281F /* Build configuration list for PBXProject "SocliaList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE2EC8E2ADC317900E8281F /* Debug */,
+				EDE2EC8F2ADC317900E8281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE2EC902ADC317900E8281F /* Build configuration list for PBXNativeTarget "SocliaList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE2EC912ADC317900E8281F /* Debug */,
+				EDE2EC922ADC317900E8281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE2EC932ADC317900E8281F /* Build configuration list for PBXNativeTarget "SocliaListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE2EC942ADC317900E8281F /* Debug */,
+				EDE2EC952ADC317900E8281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE2EC962ADC317900E8281F /* Build configuration list for PBXNativeTarget "SocliaListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE2EC972ADC317900E8281F /* Debug */,
+				EDE2EC982ADC317900E8281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE2EC642ADC317600E8281F /* Project object */;
+}
