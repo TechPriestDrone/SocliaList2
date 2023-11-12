@@ -11,7 +11,8 @@ import SwiftUI
 struct SocliaListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            LoginView()
         }
     }
 }

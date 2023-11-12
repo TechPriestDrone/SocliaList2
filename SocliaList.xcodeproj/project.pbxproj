@@ -14,6 +14,12 @@
 		EDE2EC812ADC317900E8281F /* SocliaListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC802ADC317900E8281F /* SocliaListTests.swift */; };
 		EDE2EC8B2ADC317900E8281F /* SocliaListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC8A2ADC317900E8281F /* SocliaListUITests.swift */; };
 		EDE2EC8D2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC8C2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift */; };
+		EDE2EC9C2B011B0200E8281F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC9B2B011B0200E8281F /* LoginView.swift */; };
+		EDE2EC9E2B011B1000E8281F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2EC9D2B011B1000E8281F /* ListView.swift */; };
+		EDE2ECA32B0121DA00E8281F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA22B0121DA00E8281F /* MainViewModel.swift */; };
+		EDE2ECA62B01220E00E8281F /* FirebaseLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA52B01220E00E8281F /* FirebaseLink.swift */; };
+		EDE2ECA82B01226600E8281F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA72B01226600E8281F /* UserModel.swift */; };
+		EDE2ECAA2B0123BE00E8281F /* GroceriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA92B0123BE00E8281F /* GroceriesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		EDE2EC862ADC317900E8281F /* SocliaListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocliaListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE2EC8A2ADC317900E8281F /* SocliaListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocliaListUITests.swift; sourceTree = "<group>"; };
 		EDE2EC8C2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocliaListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDE2EC9B2B011B0200E8281F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EDE2EC9D2B011B1000E8281F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EDE2ECA22B0121DA00E8281F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		EDE2ECA52B01220E00E8281F /* FirebaseLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLink.swift; sourceTree = "<group>"; };
+		EDE2ECA72B01226600E8281F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EDE2ECA92B0123BE00E8281F /* GroceriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,9 @@
 		EDE2EC6E2ADC317600E8281F /* SocliaList */ = {
 			isa = PBXGroup;
 			children = (
+				EDE2EC9F2B011B2900E8281F /* Models */,
+				EDE2EC9A2B011ADE00E8281F /* Views */,
+				EDE2EC992B011ACF00E8281F /* Services */,
 				EDE2EC6F2ADC317600E8281F /* SocliaListApp.swift */,
 				EDE2EC712ADC317600E8281F /* ContentView.swift */,
 				EDE2EC732ADC317900E8281F /* Assets.xcassets */,
@@ -125,6 +140,57 @@
 				EDE2EC8C2ADC317900E8281F /* SocliaListUITestsLaunchTests.swift */,
 			);
 			path = SocliaListUITests;
+			sourceTree = "<group>";
+		};
+		EDE2EC992B011ACF00E8281F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2ECA42B0121E500E8281F /* WebServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EDE2EC9A2B011ADE00E8281F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2EC9B2B011B0200E8281F /* LoginView.swift */,
+				EDE2EC9D2B011B1000E8281F /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDE2EC9F2B011B2900E8281F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2ECA12B011B3D00E8281F /* DataModels */,
+				EDE2ECA02B011B3400E8281F /* ViewModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDE2ECA02B011B3400E8281F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2ECA22B0121DA00E8281F /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EDE2ECA12B011B3D00E8281F /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2ECA72B01226600E8281F /* UserModel.swift */,
+				EDE2ECA92B0123BE00E8281F /* GroceriesModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		EDE2ECA42B0121E500E8281F /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2ECA52B01220E00E8281F /* FirebaseLink.swift */,
+			);
+			path = WebServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE2ECA32B0121DA00E8281F /* MainViewModel.swift in Sources */,
+				EDE2ECA82B01226600E8281F /* UserModel.swift in Sources */,
+				EDE2EC9E2B011B1000E8281F /* ListView.swift in Sources */,
+				EDE2ECAA2B0123BE00E8281F /* GroceriesModel.swift in Sources */,
+				EDE2ECA62B01220E00E8281F /* FirebaseLink.swift in Sources */,
+				EDE2EC9C2B011B0200E8281F /* LoginView.swift in Sources */,
 				EDE2EC722ADC317600E8281F /* ContentView.swift in Sources */,
 				EDE2EC702ADC317600E8281F /* SocliaListApp.swift in Sources */,
 			);
