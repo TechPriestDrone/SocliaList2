@@ -20,6 +20,8 @@
 		EDE2ECA62B01220E00E8281F /* FirebaseLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA52B01220E00E8281F /* FirebaseLink.swift */; };
 		EDE2ECA82B01226600E8281F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA72B01226600E8281F /* UserModel.swift */; };
 		EDE2ECAA2B0123BE00E8281F /* GroceriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECA92B0123BE00E8281F /* GroceriesModel.swift */; };
+		EDE2ECAC2B012C4400E8281F /* MockServicesDataServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECAB2B012C4400E8281F /* MockServicesDataServer.swift */; };
+		EDE2ECB02B01336000E8281F /* GroceriesSingleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2ECAF2B01336000E8281F /* GroceriesSingleList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		EDE2ECA52B01220E00E8281F /* FirebaseLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLink.swift; sourceTree = "<group>"; };
 		EDE2ECA72B01226600E8281F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		EDE2ECA92B0123BE00E8281F /* GroceriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesModel.swift; sourceTree = "<group>"; };
+		EDE2ECAB2B012C4400E8281F /* MockServicesDataServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServicesDataServer.swift; sourceTree = "<group>"; };
+		EDE2ECAF2B01336000E8281F /* GroceriesSingleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesSingleList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 		EDE2EC992B011ACF00E8281F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EDE2ECAB2B012C4400E8281F /* MockServicesDataServer.swift */,
 				EDE2ECA42B0121E500E8281F /* WebServices */,
 			);
 			path = Services;
@@ -155,6 +160,7 @@
 			children = (
 				EDE2EC9B2B011B0200E8281F /* LoginView.swift */,
 				EDE2EC9D2B011B1000E8281F /* ListView.swift */,
+				EDE2ECAF2B01336000E8281F /* GroceriesSingleList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,8 +331,10 @@
 			files = (
 				EDE2ECA32B0121DA00E8281F /* MainViewModel.swift in Sources */,
 				EDE2ECA82B01226600E8281F /* UserModel.swift in Sources */,
+				EDE2ECAC2B012C4400E8281F /* MockServicesDataServer.swift in Sources */,
 				EDE2EC9E2B011B1000E8281F /* ListView.swift in Sources */,
 				EDE2ECAA2B0123BE00E8281F /* GroceriesModel.swift in Sources */,
+				EDE2ECB02B01336000E8281F /* GroceriesSingleList.swift in Sources */,
 				EDE2ECA62B01220E00E8281F /* FirebaseLink.swift in Sources */,
 				EDE2EC9C2B011B0200E8281F /* LoginView.swift in Sources */,
 				EDE2EC722ADC317600E8281F /* ContentView.swift in Sources */,

@@ -7,4 +7,17 @@
 
 import Foundation
 
+class SocliaListViewModel: ObservableObject {
+    @Published var listOfGroceries: [Groceries] = []
+    
+    func verifyUser() -> Bool{
+        return true
+    }
+    
+    func loadDataintoList() {
+        if verifyUser() {
+            listOfGroceries =  MockServicesDataServer().mockLogin(findIdofList: ["123","124"])
+        }
+    }
+}
 

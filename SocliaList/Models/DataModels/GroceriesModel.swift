@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Groceries {
-    var id: UUID
+struct Groceries: Identifiable {
+    var id: String
     var items: [String]
 }

@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ListView: View {
+    @StateObject var mainViewModel: SocliaListViewModel
     var body: some View {
         NavigationView(content: {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            VStack{
+                Text("LAST NAME's LIST")
+                    .onAppear(){
+                        mainViewModel.loadDataintoList()
+                    }
+                Spacer()
+                List(mainViewModel.listOfGroceries) { grocery in
+                    DisclosureGroup{
+                        ForEach(grocery.items, id: \.self){item in
+                            Text(item)
+                        }
+                    } label: {
+                        Text(grocery.id)
+                    }
+                    Divider()
+                }
+            }
         })
         .navigationBarBackButtonHidden(true)
     }
 }
 
 #Preview {
-    ListView()
+    ListView(mainViewModel: SocliaListViewModel())
 }
