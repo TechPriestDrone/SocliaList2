@@ -8,31 +8,31 @@
 import Foundation
 
 class MockServicesDataServer {
-    let mockGroceries = [ Groceries(id: "123", items:
+    let mockGroceriesLists = [ Groceries(id: "123", products:
                                         [
-                                            "bagles",
-                                            "potats",
-                                            "fox Snaccs"
+                                            Groceries.product(name: "apple", purchased: true),
+                                            Groceries.product(name: "beer", purchased: true),
+                                            Groceries.product(name: "PS5", purchased: true)
                                         ]),
-                          Groceries(id: "125", items:
+                          Groceries(id: "125", products:
                                         [
-                                            "bagles",
-                                            "potats",
-                                            "fox Snaccs"
+                                            Groceries.product(name: "apple", purchased: true),
+                                            Groceries.product(name: "beer", purchased: true),
+                                            Groceries.product(name: "PS5", purchased: true)
                                         ]),
-                          Groceries(id: "124", items:
+                          Groceries(id: "124", products:
                                         [
-                                            "bagles",
-                                            "potats",
-                                            "fox Snaccs"
+                                            Groceries.product(name: "apple", purchased: true),
+                                            Groceries.product(name: "beer", purchased: true),
+                                            Groceries.product(name: "PS5", purchased: true)
                                         ])]
     
     func mockLogin (findIdofList: [String]) -> [Groceries] {
         var listToReturn: [Groceries] = []
         for idToChexck in findIdofList{
-            for mockGrocery in mockGroceries {
-                if idToChexck == mockGrocery.id {
-                    listToReturn.append(mockGrocery)
+            for mockGroceryList in mockGroceriesLists {
+                if idToChexck == mockGroceryList.id {
+                    listToReturn.append(mockGroceryList)
                 }
             }
         }

@@ -9,5 +9,9 @@ import Foundation
 
 struct Groceries: Identifiable {
     var id: String
-    var items: [String]
+    var products: [product]
+    struct product {
+        var name: String
+        var purchased: Bool
+    }
 }

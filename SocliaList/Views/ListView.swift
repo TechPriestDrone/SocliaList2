@@ -14,17 +14,11 @@ struct ListView: View {
             VStack{
                 Text("LAST NAME's LIST")
                     .onAppear(){
-                        mainViewModel.loadDataintoList()
+                        mainViewModel.loadDataIntoList()
                     }
                 Spacer()
                 List(mainViewModel.listOfGroceries) { grocery in
-                    DisclosureGroup{
-                        ForEach(grocery.items, id: \.self){item in
-                            Text(item)
-                        }
-                    } label: {
-                        Text(grocery.id)
-                    }
+                    GroceriesSingleList(mainViewModel: mainViewModel, groceries: grocery)
                     Divider()
                 }
             }
@@ -36,3 +30,11 @@ struct ListView: View {
 #Preview {
     ListView(mainViewModel: SocliaListViewModel())
 }
+
+//DisclosureGroup{
+//    ForEach(grocery.items, id: \.name){item in
+//        GroceriesSingleList(groceries: grocery)
+//    }
+//} label: {
+//    Text(grocery.id)
+//}
