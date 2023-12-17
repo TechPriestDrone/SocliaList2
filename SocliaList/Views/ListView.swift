@@ -21,6 +21,7 @@ struct ListView: View {
                     GroceriesSingleList(mainViewModel: mainViewModel, groceries: grocery)
                     Divider()
                 }
+                .frame(alignment: .leading)
             }
         })
         .navigationBarBackButtonHidden(true)
@@ -30,11 +31,3 @@ struct ListView: View {
 #Preview {
     ListView(mainViewModel: SocliaListViewModel())
 }
-
-//DisclosureGroup{
-//    ForEach(grocery.items, id: \.name){item in
-//        GroceriesSingleList(groceries: grocery)
-//    }
-//} label: {
-//    Text(grocery.id)
-//}

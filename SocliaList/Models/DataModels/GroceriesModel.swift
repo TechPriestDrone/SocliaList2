@@ -10,8 +10,9 @@ import Foundation
 struct Groceries: Identifiable {
     var id: String
     var products: [product]
+    var allProductsMarkedPurchased: Bool = false
     struct product {
         var name: String
-        var purchased: Bool
+        var purchased: Bool = false
     }
 }
