@@ -40,7 +40,17 @@ class SocliaListViewModel: ObservableObject {
     
     func loadDataIntoList() {
         if verifyUser() {
-            listOfGroceries =  MockServicesDataServer().mockLogin(findIdofList: ["123","124","125"])
+            listOfGroceries =  MockServicesDataServer().mockLogin(findIdofList: ["moms new list","friday dinner","specials"])
+        }
+    }
+    
+    func listIcon(numberofMarked: Int, totalListSize:Int) -> String{
+        switch numberofMarked {
+        case let x where x == 0 : return "checklist.checked"
+        case let x where x == totalListSize : return "checklist.unchecked"
+            
+        default:
+            return "checklist"
         }
     }
 }

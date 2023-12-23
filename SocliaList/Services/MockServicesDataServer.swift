@@ -8,23 +8,23 @@
 import Foundation
 
 class MockServicesDataServer {
-    let mockGroceriesLists = [ Groceries(id: "123", products:
+    let mockGroceriesLists = [ Groceries(id: "moms new list", products:
                                         [
                                             Groceries.product(name: "apple",purchased: true),
                                             Groceries.product(name: "beer",purchased: true),
                                             Groceries.product(name: "PS5",purchased: true)
                                         ]),
-                          Groceries(id: "125", products:
+                          Groceries(id: "friday dinner", products:
                                         [
-                                            Groceries.product(name: "apple"),
-                                            Groceries.product(name: "beer"),
-                                            Groceries.product(name: "PS5")
+                                            Groceries.product(name: "apple2"),
+                                            Groceries.product(name: "beer2", purchased: true),
+                                            Groceries.product(name: "PS52")
                                         ]),
-                          Groceries(id: "124", products:
+                          Groceries(id: "specials", products:
                                         [
-                                            Groceries.product(name: "apple"),
-                                            Groceries.product(name: "beer"),
-                                            Groceries.product(name: "PS5")
+                                            Groceries.product(name: "apple3"),
+                                            Groceries.product(name: "beer3"),
+                                            Groceries.product(name: "PS53")
                                         ])]
     
     func mockLogin (findIdofList: [String]) -> [Groceries] {

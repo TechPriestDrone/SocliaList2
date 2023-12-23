@@ -12,19 +12,19 @@ struct ListView: View {
     var body: some View {
         NavigationView(content: {
             VStack{
-                Text("LAST NAME's LIST")
+                Text("PLACE HOLDER FOR LAST NAME's LIST")
                     .onAppear(){
                         mainViewModel.loadDataIntoList()
                     }
                 Spacer()
                 List(mainViewModel.listOfGroceries) { grocery in
                     GroceriesSingleList(mainViewModel: mainViewModel, groceries: grocery)
-                    Divider()
+                        .listRowSeparator(.hidden)
                 }
-                .frame(alignment: .leading)
             }
         })
         .navigationBarBackButtonHidden(true)
+
     }
 }
 

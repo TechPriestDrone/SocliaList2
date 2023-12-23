@@ -13,7 +13,9 @@ struct GroceriesSingleList: View {
     @State var unmarkedLeft = true
     
     var body: some View {
-        DisclosureGroup(groceries.id, isExpanded: $unmarkedLeft ){
+        DisclosureGroup(
+            isExpanded: $unmarkedLeft,
+            content: {
                 ForEach(groceries.products, id: \.name){product in
                     HStack{
                         ZStack{
@@ -40,27 +42,34 @@ struct GroceriesSingleList: View {
                             mainViewModel.deleteGroceryFromList(groceryList: groceries, groceryTodelete: product)
                         }
                     }
-//                    .onTapGesture {
-//                        mainViewModel.markGroceryAsPurchased(groceryListId: groceries, groceryToToggle: product)
-//                    }
             }
-        }
-        .onAppear(){
-            if groceries.products.filter({$0.purchased == false}).isEmpty{
-                unmarkedLeft = false
+            Divider()
+            },
+            label: { 
+                VStack{
+                Text("\(groceries.id)")
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .onAppear(){
+//                        if groceries.products.filter({$0.purchased == false}).isEmpty{
+//                            unmarkedLeft = false
+//                        }
+                        unmarkedLeft = !groceries.products.filter({$0.purchased == false}).isEmpty
+                    }
+                    HStack{
+                        Spacer()
+                        Image(systemName: mainViewModel.listIcon(numberofMarked: groceries.products.filter({$0.purchased == false}).count, totalListSize: groceries.products.count))
+                        Spacer()
+                        unmarkedLeft ? Image(systemName: "scroll") : Image(systemName: "scroll.fill")
+                    }
+                Rectangle()
+                    .frame(height: 0.2)
+                }
+                .padding(.leading)
             }
-        }
+        ).buttonStyle(PlainButtonStyle()).accentColor(.clear).disabled(true)
     }
 }
 
 #Preview {
-    GroceriesSingleList(mainViewModel: SocliaListViewModel(), groceries: Groceries(id: "123", products: [Groceries.product(name: "apple", purchased: false),Groceries.product(name: "grapple", purchased: false)]))
+    GroceriesSingleList(mainViewModel: SocliaListViewModel(), groceries: Groceries(id: "moms list wqdas asd ", products: [Groceries.product(name: "apple", purchased: false),Groceries.product(name: "grapple", purchased: false)]))
 }
-
-//List(groceries.items, id: \.name) { item in
-//    HStack{
-//        Text(item.name)
-//        Spacer()
-//        Image(systemName: "circle")
-//    }
-//}
