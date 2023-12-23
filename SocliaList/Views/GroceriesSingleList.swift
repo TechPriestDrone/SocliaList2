@@ -66,7 +66,9 @@ struct GroceriesSingleList: View {
                 }
                 .padding(.leading)
             }
-        ).buttonStyle(PlainButtonStyle()).accentColor(.clear).disabled(true)
+        )
+        .buttonStyle(PlainButtonStyle()).accentColor(.clear)
+        // the above must be comented out to see the label ui
     }
 }
 
